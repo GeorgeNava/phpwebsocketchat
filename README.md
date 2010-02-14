@@ -1,13 +1,11 @@
 PHPWEBSOCKETCHAT
 ================
 
-Based on the first implementation of [WebSockets in PHP](http://github.com/GeorgeNava/phpwebsocket), here comes a Web Chat with a little twist. It uses little monsters as avatars thanks to gravatar and monster_id.
+Based on the first implementation of [WebSockets in PHP](http://github.com/GeorgeNava/phpwebsocket), here comes a *Web Chat* with a little twist. It uses little monsters as avatars thanks to gravatar and monster_id.
 
-Again, as of Feb/10 the only browsers that support websockets are Google Chrome and Safari nightlies.
+[Get the code!](http://github.com/GeorgeNava/phpwebsocketchat/downloads)
 
-Get the developers release from here [Google Chrome Dev Channel](http://www.chromium.org/getting-involved/dev-channel)
-
-Hurry up Firefox, you're late to the party!
+Again, as of Feb/10 the only browsers that support websockets are [Google Chrome](http://www.google.com/chrome) and Safari nightlies.
 
 Client side
 -----------
@@ -43,13 +41,11 @@ View source code of [chatserver.php](http://github.com/GeorgeNava/phpwebsocketch
 Steps to run the test:
 ----------------------
 
-* Download all files to a folder in your local server running Apache and PHP.
+* [Download all files](http://github.com/GeorgeNava/phpwebsocketchat/downloads) to a folder in your local server running Apache and PHP.
 * From the command line, run the chatserver.php program to listen for socket connections.
 * Open Google Chrome (dev build) and point to the chatclient.php page
 * Done, your browser now has a full-duplex channel with the server.
 * Start chatting with your friends in real time!
-
-2010 will be an interesting year.
 
 WebSockets for the masses!
 ==========================
