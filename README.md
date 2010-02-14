@@ -1,7 +1,7 @@
 PHPWEBSOCKETCHAT
 ================
 
-Based on the first implementation of WebSockets in PHP, here comes a Web Chat with a little twist. It uses little monsters as avatars thanks to gravatar and monster_id.
+Based on the first implementation of [WebSockets in PHP](http://github.com/GeorgeNava/phpwebsocket), here comes a Web Chat with a little twist. It uses little monsters as avatars thanks to gravatar and monster_id.
 
 Again, as of Feb/10 the only browsers that support websockets are Google Chrome and Safari nightlies.
 
@@ -21,7 +21,7 @@ Client side
 	}
 	catch(ex){ log(ex); }
 
-View source code of [client.php](http://github.com/GeorgeNava/phpwebsocketchat/blob/master/chatclient.php)
+View source code of [chatclient.php](http://github.com/GeorgeNava/phpwebsocketchat/blob/master/chatclient.php)
 
 
 Server side
@@ -38,7 +38,7 @@ Server side
 	$handshake = true;
 	socket_write($socket,$upgrade.chr(0),strlen($upgrade.chr(0)));
 
-View source code of [server.php](http://github.com/GeorgeNava/phpwebsocketchat/blob/master/chatserver.php)
+View source code of [chatserver.php](http://github.com/GeorgeNava/phpwebsocketchat/blob/master/chatserver.php)
 
 Steps to run the test:
 ----------------------
