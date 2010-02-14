@@ -1,0 +1,60 @@
+html,body{width:720px; font:normal 0.9em arial,helvetica; margin:0 auto; padding:0; background:#EFF5FF;}
+a img{border:none;}
+
+#header{margin:0 24px 24px; padding:4px 24px; background:#075CC7; color:white; border-bottom:2px solid #0095FF;} 
+#header h3{margin:0px; padding:0; font:bold 1.6em calibri;}
+#header h3 a{color:#FFF; text-decoration:none;}
+
+#footer{position:fixed; bottom:0px; width:624px; margin:24px 24px 0; padding:8px 24px; text-align:center; background:#075CC7; color:white; border-top:2px solid #0095FF; clear:both;}
+
+#main{width:400px; padding:0 24px; margin-right:290px;}
+h2.title{color:#C33; border-bottom:2px solid #888; margin:0; padding:0 0 0 2px; text-align:left;}
+
+#actionbar{padding:3px 8px; margin:0 0 12px 0; border:1px solid #66AAA; background:#FFFFDD;}
+#actionbar .avatar{float:left; margin-right:12px;}
+#actionbar #msg{width:70%; margin:4px 0 6px 0;}
+
+#sidebar{float:right; width:240px; margin-right:24px;}
+#roster{min-height:200px; clear:both; text-align:right;}
+#roster a{color:#333; text-decoration:none;}
+#roster h2{color:#C33; border-bottom:2px solid #888; margin:0; padding:0 2px 0 0; text-align:right;}
+#roster li{list-style:none; border-bottom:1px solid #888; padding-top:4px; display:block; height:36px; }
+#roster li.self{background:#FFF;}
+#roster li:hover{background:#FFFFDD;}
+#roster li a{height:32px; clear:both;}
+#roster li img{float:right; margin-left:12px; border:1px solid #aaa;}
+#roster li h3{font:normal 1.3em calibri; margin:0; padding:0; color:#C33; line-height:1em;}
+#roster li h4{font:normal 0.8em arial;   margin:0; padding:0; color:#666;}
+
+#log   {padding:8px 0; margin:0;}
+#log dl{min-height:32px; margin:0 0 2px 6px; padding:2px; font:normal 1.1em arial;  /*background:white; border-bottom:1px solid black;*/ }
+#log dt{float:left; clear:left; width:34px; height:34px; padding:3px 12px 0 0; display:inline-block; background:url(tip.png) 12px right no-repeat;}
+#log dd{min-height:32px; margin-left:46px; padding:2px 6px; border:1px solid #DDD; background:#FFF; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; }
+#log dd sub{font-size:0.7em; color:#8EA7CF; margin:0;}
+#log dd sub b{color:#C33;}
+
+/***************** CSS3 *****************/
+.rd8{-webkit-border-radius:0 0 8px 8px;
+        -moz-border-radius:0 0 8px 8px;
+             border-radius:0 0 8px 8px;
+}
+.ru8{-webkit-border-radius:8px 8px 0 0;
+        -moz-border-radius:8px 8px 0 0;
+             border-radius:8px 8px 0 0;
+}
+.ra6{-webkit-border-radius:6px; 
+        -moz-border-radius:6px; 
+             border-radius:6px;
+}
+.sd2{-webkit-box-shadow:0px 2px 4px #666;
+        -moz-box-shadow:0px 2px 4px #666;
+             box-shadow:0px 2px 4px #666;
+}
+.su2{-webkit-box-shadow:0px -2px 4px #666;
+        -moz-box-shadow:0px -2px 4px #666;
+             box-shadow:0px -2px 4px #666;
+}
+.sd1{-webkit-box-shadow:0px 0px 2px #666;
+        -moz-box-shadow:0px 0px 2px #666;
+             box-shadow:0px 0px 2px #666;
+}
