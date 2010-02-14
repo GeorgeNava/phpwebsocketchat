@@ -1,11 +1,12 @@
 PHPWEBSOCKETCHAT
 ================
 
-Based on the first implementation of [WebSockets in PHP](http://github.com/GeorgeNava/phpwebsocket), here comes a *Web Chat* with a little twist. It uses little monsters as avatars thanks to gravatar and monster_id.
+Based on the first implementation of [WebSockets in PHP](http://github.com/GeorgeNava/phpwebsocket), here comes a **Web Chat** with a little twist.  
+It uses little monsters as avatars thanks to gravatar and monster_id.
 
-[Get the code!](http://github.com/GeorgeNava/phpwebsocketchat/downloads)
+[Get the code from the download zone!](http://github.com/GeorgeNava/phpwebsocketchat/downloads)
 
-Again, as of Feb/10 the only browsers that support websockets are [Google Chrome](http://www.google.com/chrome) and Safari nightlies.
+*Again, as of Feb/10 the only browsers that support websockets are [Google Chrome](http://www.google.com/chrome) and Safari nightlies.*
 
 Client side
 -----------
