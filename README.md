@@ -44,7 +44,7 @@ Steps to run the test:
 
 * [Download all files](http://github.com/GeorgeNava/phpwebsocketchat/downloads) to a folder in your local server running Apache and PHP.
 * From the command line, run the chatserver.php program to listen for socket connections.
-* Open Google Chrome (dev build) and point to the chatclient.php page
+* Open Google Chrome and point to the chatclient.php page
 * Done, your browser now has a full-duplex channel with the server.
 * Start chatting with your friends in real time!
 
